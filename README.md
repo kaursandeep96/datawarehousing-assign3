@@ -55,3 +55,11 @@ $SPARK_HOME/bin/pyspark --master spark://35.203.101.174:7077
 SPARK STREAMING FROM TWITTER
 Spark streaming divides the data into batches after that spark engine processes the the batches and finally generates the stream of results.
 
+SENTIMENT ANALYSIS ALGORITHM:
+We performed sentiment analysis using Logistic regression classifier.
+
+FEATURE SELECTION:
+The feature selection and feature extraction was done with the help of data pipeline method. Spark provides the users with set of Machine Learning algorithms which help the users in extraction, feature selection, transformation, clustering and more. All these can be done using data pipelines.
+
+
+
